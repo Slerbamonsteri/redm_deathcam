@@ -1,5 +1,7 @@
 local Dead = false
-
+local deadcam = nil
+local angleY = 0.0
+local angleZ = 0.0
 RegisterNetEvent('vorp:SelectedCharacter', function() --/ Change accordingly to your FW or do something else to initialize those funcs.
     DeathCam2()
     DeathCam1()
